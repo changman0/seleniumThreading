@@ -1,3 +1,4 @@
+# Author: Caleb Chang, March 2020
 from selenium import webdriver
 import threading
 
