@@ -9,7 +9,8 @@ def thread1():
 
     while rep < 10000:
 
-        browser.get('https://docs.google.com/forms/d/e/1FAIpQLSfVNRudfbclxj09DsAOIawmmYmE4fNYPKwxKAds1TSTdtkfCw/viewform')
+        browser.get('https://docs.google.com/forms/d/e/1FAIp'\
+                    +'QLSfVNRudfbclxj09DsAOIawmmYmE4fNYPKwxKAds1TSTdtkfCw/viewform')
 
         browser.find_element_by_xpath('//*[@id="mG61Hd"]\
         /div/div/div[2]/div[8]/div/div[2]/div[1]/div/label\
